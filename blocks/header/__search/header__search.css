@@ -1,0 +1,33 @@
+.header__search{
+    margin: 20px 0 20px 60.96px;
+    padding: 0;
+    width: 100%;
+    min-width: 763px;
+    border: 1px solid #EBEBF1;
+    min-height: 40px;
+    border-radius: 5px;
+    background: url('../../../images/favicon.svg') no-repeat 14px 11px;
+    padding-left: 39px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    color: #BBC4D6;
+    flex-basis: 763px;
+}
+@media screen and (min-width:768px) and (max-width:1169px){
+    .header__search{
+        min-width: 44.791vw;
+        margin-left: 49.96px;
+    }
+   }
+@media screen and (min-width:375px) and (max-width:767px){
+       .header__search {
+           /* min-width: 375px; */
+           width: 100%;
+           flex-direction: column;
+           display: none;
+       }
+   }

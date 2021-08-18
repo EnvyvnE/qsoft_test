@@ -1,0 +1,54 @@
+.main__partners-item{
+    margin: 0;
+    padding: 0;
+    flex-basis: 270px;
+    width:100%;
+    max-width: 270px;
+    border: 1px solid #EBEBF1;
+    box-sizing: border-box;
+    border-radius: 5px;
+    min-height: 120px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.main__partners-item:hover{
+    cursor: url('../../../images/cursor.svg') ,pointer;
+    box-shadow: -3px 0px 40px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(164, 164, 164, 0.03);
+}
+/* i'd better use 'gap' to make indentation between list items */
+
+@media screen and (min-width:1170px) {
+    .main__partners-item:nth-child(4n) {
+        margin-right: 0px;
+    }
+}
+/* @media screen and (min-width:1170px) and (max-width:1439px){
+    .main__partners-item{
+        min-width: 30vw;
+    }
+} */
+
+@media screen and (min-width:768px) and (max-width:1169px){
+    .main__partners-item{
+        margin-right: 20px;
+        margin-bottom: 20px;
+        flex-basis:229px;
+    }
+
+    .main__partners-item:nth-child(3n) {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:767px){
+    .main__partners-item{
+        min-width: 335px;
+        max-height: 140px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+}

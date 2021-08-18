@@ -1,0 +1,10 @@
+.header__photo{
+    box-sizing:border-box;
+    margin-left: 10px;
+    padding: 0;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    max-width: 40px;
+    max-height: 40px;
+
+}

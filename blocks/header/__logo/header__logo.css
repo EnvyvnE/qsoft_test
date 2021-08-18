@@ -3,3 +3,6 @@
     max-width: 135px;
     height: 30.32px;
 }
+.header__logo:hover{
+    cursor: url('../../../images/cursor.svg') ,pointer;
+}

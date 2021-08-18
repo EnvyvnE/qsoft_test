@@ -7,6 +7,10 @@
     justify-self: flex-start;
     align-items: center;    
 }
+.header__profile:hover {
+    cursor: url('../../../images/cursor.svg') ,pointer;
+
+}
 .header__profile::before{
     content:'';
     border-left: 1px solid #ebebf1;

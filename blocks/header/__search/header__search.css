@@ -25,9 +25,15 @@
    }
 @media screen and (min-width:375px) and (max-width:767px){
        .header__search {
-           /* min-width: 375px; */
-           width: 100%;
-           flex-direction: column;
-           display: none;
+           border: none;
+           border-radius: 0;
+           border-top: 1px solid #BBC4D6;
+           margin: 0;
+           max-width: 375px;
+           box-sizing: border-box;
+           min-width: 100%;
+           box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05);
+
+           /* display: none; */
        }
    }

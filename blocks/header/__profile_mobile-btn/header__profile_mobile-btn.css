@@ -1,6 +1,9 @@
 .header__profile_mobile-btn{
     display: none;
 }
+.header__profile_mobile-btn:hover{
+    cursor: url('../../../images/cursor.svg') ,pointer;
+}
 @media screen and (min-width:375px) and (max-width:767px){
     .header__profile_mobile-btn{
         widows: 24px;
